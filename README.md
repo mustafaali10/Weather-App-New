@@ -40,5 +40,5 @@ This project demonstrates skills in **Android app architecture, State management
 
 ---
 
-## 📈 Infrastructure Diagram
+## 📈 Architecture Diagram
 <img width="2642" height="2257" alt="Weather App Architecture" src="https://github.com/user-attachments/assets/a63cc38e-0ba8-4b59-bf52-2d150fd02c02" />
