@@ -1,23 +1,20 @@
 # 🌦️ WeatherApp — Jetpack Compose MVVM Android Project
 
-_A modern Android weather application built with Jetpack Compose, Kotlin, and OpenWeather API._
+_Minimalist Weather App using Kotlin
+
+
+![WhatsApp Image 2025-10-25 at 10 24 33 PM](https://github.com/user-attachments/assets/6b37969f-eacc-4c62-a732-574a071cb1c6)  ![WhatsApp Image 2025-10-25 at 10 24 33 PM (1)](https://github.com/user-attachments/assets/c6d260c8-bdc1-4b73-8154-6ab6f77073c9)
+
 
 ---
 
 ## 🔍 Overview
 
 This project is a fully functional **Weather App** developed following professional Android development practices using **Jetpack Compose** and **MVVM architecture**.  
-It fetches real-time weather data from the **OpenWeather API**, processes it using **Retrofit**, and displays it through a clean, responsive UI.  
+It fetches real-time weather data from the **FreeWeatherAPI**, processes it using **Retrofit**, and displays it through a clean, responsive UI.  
 
-This project demonstrates skills in **Android app architecture, state management, API integration, and UI design** — reflecting strong Android development fundamentals and production-ready code quality.
-
+This project demonstrates skills in **Android app architecture, State management, API Integration, and UI design**.
 ---
-
-## 🎥 Reference
-
-📺 **Tutorial Source:** [Build a Complete Weather App with Jetpack Compose & MVVM](https://www.youtube.com/watch?v=Kn6vUH1uJT4&t=2146s)  
-Based on this tutorial, I implemented my own version with enhancements and design refinements.
-
 ---
 
 ## 🛠️ Technologies Used
@@ -29,9 +26,7 @@ Based on this tutorial, I implemented my own version with enhancements and desig
 | **Architecture** | MVVM (Model-View-ViewModel) | Clean architecture pattern separating logic, data, and UI layers for scalability. |
 | **Networking** | Retrofit + OkHttp + Gson | API integration layer for network calls and JSON serialization. |
 | **State Management** | ViewModel + LiveData + Compose State | Lifecycle-aware architecture for smooth UI updates. |
-| **Dependency Injection** | Hilt (Dagger) | Simplifies dependency management and improves testability. |
 | **Asynchronous Tasks** | Kotlin Coroutines + Flow | Efficient async operations for API requests and UI updates. |
-| **Local Storage** | Room (optional) | Caching data locally for offline support. |
 | **Version Control** | Git + GitHub | Complete Git workflow for collaboration and version management. |
 
 ---
@@ -47,16 +42,4 @@ Based on this tutorial, I implemented my own version with enhancements and desig
 ---
 
 ## 📈 Infrastructure Diagram
-
-*(Leave space below for diagram — you can paste a screenshot or insert a Mermaid diagram later)*
-
-```mermaid
-graph TD
-    A[User Input: City Name] --> B[ViewModel]
-    B --> C[Repository]
-    C --> D[Retrofit API Call]
-    D --> E[OpenWeather API]
-    E --> F[JSON Response]
-    F --> G[Data Model]
-    G --> H[Compose UI Updates]
-    H --> I[Display Weather Data]
+<img width="2642" height="2257" alt="Weather App Architecture" src="https://github.com/user-attachments/assets/a63cc38e-0ba8-4b59-bf52-2d150fd02c02" />
