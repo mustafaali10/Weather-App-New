@@ -1,6 +1,6 @@
-# 🌦️ WeatherApp — Jetpack Compose MVVM Android Project
+# 🌦️ WeatherApp- Jetpack Compose MVVM Android Project
 
-_Minimalist Weather App using Kotlin
+Minimalist Weather App using Kotlin
 
 
 ![WhatsApp Image 2025-10-25 at 10 24 33 PM](https://github.com/user-attachments/assets/6b37969f-eacc-4c62-a732-574a071cb1c6)  ![WhatsApp Image 2025-10-25 at 10 24 33 PM (1)](https://github.com/user-attachments/assets/c6d260c8-bdc1-4b73-8154-6ab6f77073c9)
@@ -37,7 +37,6 @@ This project demonstrates skills in **Android app architecture, State management
 2. **Repository** layer handles the network logic.  
 3. **ViewModel** receives parsed weather data, updates Compose state.  
 4. **Compose UI** reacts automatically to state changes and displays weather data dynamically.  
-5. (Optional) **Room** or local cache ensures offline access.
 
 ---
 
